@@ -8,7 +8,7 @@ imageSelector.addEventListener("change", function () {
     const selectedImage = imageSelector.value; // Get the selected option's value
     if(selectedImage === "image5.png"){
         displayedImage.src = selectedImage;
-        heading.textContent = "💕💕YOU ARCHIE MY CHAMP💕💕";
+        heading.textContent = "💕💕YOU ARCHIE 💕💕";
     }
     else{
         displayedImage.src = selectedImage;
